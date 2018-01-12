@@ -1,0 +1,1099 @@
+12/20 18:59:11,860 : CASE 3_Cluster_benchmark_rootpath [started] 
+12/20 18:59:11,980 : INIT  [started] line: 9
+
+12/20 18:59:11,987 : OPERATION GM_INIT [started] line: 10
+                        deviceid = 2E6408F00C2400A2
+12/20 18:59:12,033 : ACTION Press [started] line: 3
+                        times = 5
+                        keyName = CANCEL
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 18:59:20,087 : ACTION Press [finished] result=SUCCESS duration=8.054sec
+12/20 18:59:20,098 : STEP SNAPSHOT [started] 
+
+12/20 18:59:20,742 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.644sec
+12/20 18:59:21,253 : ACTION Press [started] line: 9
+                        times = 1
+                        keyName = HOME
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = false
+12/20 18:59:22,958 : ACTION Press [finished] result=SUCCESS duration=1.705sec
+12/20 18:59:23,476 : ACTION UIAVerify [started] line: 15
+                        compareToNum = NaN
+                        compareType = number
+                        failOnNotMatch = false
+                        selector = text=Settings::idcontains=com.gm.gmhomescreen:id/icon_label_
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 18:59:26,130 : ACTION UIAVerify [finished] result=SUCCESS duration=2.654sec returnValue={resultNotHit=true, true=false, false=true}
+12/20 18:59:26,145 : STEP SNAPSHOT [started] 
+
+12/20 18:59:26,795 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.650sec
+12/20 18:59:27,312 : JUDGEMENT  [started] line: 23
+                        condition = isfound.false
+12/20 18:59:27,327 : ACTION Press [started] line: 24
+                        times = 1
+                        keyName = HOME
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = false
+12/20 18:59:28,698 : ACTION Press [finished] result=SUCCESS duration=1.371sec
+12/20 18:59:29,217 : ACTION UIAVerify [started] line: 30
+                        compareToNum = NaN
+                        compareType = number
+                        failOnNotMatch = false
+                        selector = text=Settings::idcontains=com.gm.gmhomescreen:id/icon_label_
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = false
+12/20 18:59:31,146 : ACTION UIAVerify [finished] result=SUCCESS duration=1.929sec returnValue={result=Settings, resultNotHit=true, true=true, false=false}
+12/20 18:59:31,662 : JUDGEMENT  [started] line: 38
+                        condition = isfound2.false
+12/20 18:59:31,676 : JUDGEMENT  [finished] result=SUCCESS duration=0.014sec
+12/20 18:59:31,689 : JUDGEMENT  [finished] result=SUCCESS duration=4.377sec
+12/20 18:59:31,701 : OPERATION GM_INIT [finished] result=SUCCESS duration=19.714sec
+12/20 18:59:31,710 : INIT  [finished] result=SUCCESS duration=19.730sec
+12/20 18:59:31,716 : MAIN  [started] line: 15
+
+12/20 18:59:31,725 : OPERATION cluster_gonav [started] line: 17
+                        deviceid = 2E6408F00C2400A2
+12/20 18:59:31,774 : LOOP  [started] line: 5
+                        gaugeValue = 8
+                        increment = 1
+                        initValue = 0
+12/20 18:59:31,779 :     [on loop] 0
+12/20 18:59:31,785 : ACTION SendLINMSG [started] line: 6
+                        port = SWC
+                        frameType = master
+                        id = swc_select_left
+                        message = 00106020
+12/20 18:59:31,974 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.189sec
+12/20 18:59:32,990 :     [on loop] 1
+12/20 18:59:33,009 : ACTION SendLINMSG [started] line: 6
+                        port = SWC
+                        frameType = master
+                        id = swc_select_left
+                        message = 00106020
+12/20 18:59:33,213 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.204sec
+12/20 18:59:34,229 :     [on loop] 2
+12/20 18:59:34,248 : ACTION SendLINMSG [started] line: 6
+                        port = SWC
+                        frameType = master
+                        id = swc_select_left
+                        message = 00106020
+12/20 18:59:34,461 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.213sec
+12/20 18:59:35,477 :     [on loop] 3
+12/20 18:59:35,486 : ACTION SendLINMSG [started] line: 6
+                        port = SWC
+                        frameType = master
+                        id = swc_select_left
+                        message = 00106020
+12/20 18:59:35,694 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.208sec
+12/20 18:59:36,711 :     [on loop] 4
+12/20 18:59:36,731 : ACTION SendLINMSG [started] line: 6
+                        port = SWC
+                        frameType = master
+                        id = swc_select_left
+                        message = 00106020
+12/20 18:59:36,945 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.214sec
+12/20 18:59:37,963 :     [on loop] 5
+12/20 18:59:37,980 : ACTION SendLINMSG [started] line: 6
+                        port = SWC
+                        frameType = master
+                        id = swc_select_left
+                        message = 00106020
+12/20 18:59:38,189 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.209sec
+12/20 18:59:39,206 :     [on loop] 6
+12/20 18:59:39,213 : ACTION SendLINMSG [started] line: 6
+                        port = SWC
+                        frameType = master
+                        id = swc_select_left
+                        message = 00106020
+12/20 18:59:39,403 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.190sec
+12/20 18:59:40,410 :     [on loop] 7
+12/20 18:59:40,430 : ACTION SendLINMSG [started] line: 6
+                        port = SWC
+                        frameType = master
+                        id = swc_select_left
+                        message = 00106020
+12/20 18:59:40,636 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.206sec
+12/20 18:59:41,654 : LOOP  [finished] result=SUCCESS duration=9.880sec
+12/20 18:59:41,672 : ACTION ExecCommand [started] line: 15
+                        async = false
+                        isReturn = false
+                        deviceId = 2E6408F00C2400A2
+                        command = root
+                        snapshot = true
+12/20 18:59:41,729 : ACTION ExecCommand [finished] result=SUCCESS duration=0.057sec
+12/20 18:59:41,737 : STEP SNAPSHOT [started] 
+
+12/20 18:59:42,181 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.444sec
+12/20 18:59:42,202 : ACTION SendLINMSG [started] line: 19
+                        port = SWC
+                        frameType = master
+                        id = swc_select_up
+                        message = 00206020
+12/20 18:59:42,408 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.206sec
+12/20 18:59:43,427 : LOOP  [started] line: 26
+                        gaugeValue = 10
+                        increment = 1
+                        initValue = 0
+12/20 18:59:43,445 :     [on loop] 0
+12/20 18:59:43,466 : OPERATION Cluster_ExecCommand [started] line: 27
+                        deviceid = 2E6408F00C2400A2
+12/20 18:59:43,524 : ACTION ExecCommand [started] line: 4
+                        async = false
+                        isReturn = false
+                        deviceId = 2E6408F00C2400A2
+                        command = shell pkill tcpdump
+                        snapshot = true
+12/20 18:59:43,582 : ACTION ExecCommand [finished] result=SUCCESS duration=0.058sec
+12/20 18:59:43,588 : STEP SNAPSHOT [started] 
+
+12/20 18:59:44,131 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.543sec
+12/20 18:59:45,144 : ACTION ExecCommand [started] line: 11
+                        async = true
+                        isReturn = false
+                        alias = tcpdump
+                        deviceId = 2E6408F00C2400A2
+                        command = shell /data/local/tcpdump -i any -U -p -s 0 -w /sdcard/capture.pcap
+                        snapshot = true
+12/20 18:59:45,151 : ACTION ExecCommand [finished] result=SUCCESS duration=0.007sec
+12/20 18:59:45,158 : STEP SNAPSHOT [started] 
+
+12/20 18:59:45,703 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.545sec
+12/20 18:59:46,722 : OPERATION Cluster_ExecCommand [finished] result=SUCCESS duration=3.256sec
+12/20 18:59:46,743 : ACTION SendLINMSG [started] line: 31
+                        port = SWC
+                        frameType = master
+                        id = swc_select_down
+                        message = 00206020
+12/20 18:59:46,958 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.215sec
+12/20 18:59:47,978 : ACTION StopCommand [started] line: 39
+                        isReturn = false
+                        alias = tcpdump
+12/20 18:59:47,986 : ACTION StopCommand [finished] result=SUCCESS duration=0.008sec
+12/20 18:59:48,995 : ACTION VerifyFSATcp [started] line: 44
+                        failOnNotMatch = false
+                        messages = [ {"functionId":"709", "keyInfo":[{"Expected": "Launcher:nav", "Path": "$.callback"}]} ]
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 18:59:49,302 : ACTION VerifyFSATcp [finished] result=SUCCESS duration=0.307sec returnValue={true=false, false=true}
+12/20 18:59:49,309 : STEP SNAPSHOT [started] 
+
+12/20 18:59:49,826 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.517sec
+12/20 18:59:50,834 : JUDGEMENT  [started] line: 50
+                        condition = isFound.true
+12/20 18:59:50,842 : JUDGEMENT  [finished] result=SUCCESS duration=0.008sec
+12/20 18:59:50,847 :     [on loop] 1
+12/20 18:59:50,853 : OPERATION Cluster_ExecCommand [started] line: 27
+                        deviceid = 2E6408F00C2400A2
+12/20 18:59:50,896 : ACTION ExecCommand [started] line: 4
+                        async = false
+                        isReturn = false
+                        deviceId = 2E6408F00C2400A2
+                        command = shell pkill tcpdump
+                        snapshot = true
+12/20 18:59:50,956 : ACTION ExecCommand [finished] result=SUCCESS duration=0.060sec
+12/20 18:59:50,963 : STEP SNAPSHOT [started] 
+
+12/20 18:59:51,361 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.398sec
+12/20 18:59:52,383 : ACTION ExecCommand [started] line: 11
+                        async = true
+                        isReturn = false
+                        alias = tcpdump
+                        deviceId = 2E6408F00C2400A2
+                        command = shell /data/local/tcpdump -i any -U -p -s 0 -w /sdcard/capture.pcap
+                        snapshot = true
+12/20 18:59:52,401 : ACTION ExecCommand [finished] result=SUCCESS duration=0.018sec
+12/20 18:59:52,414 : STEP SNAPSHOT [started] 
+
+12/20 18:59:52,838 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.424sec
+12/20 18:59:53,857 : OPERATION Cluster_ExecCommand [finished] result=SUCCESS duration=3.004sec
+12/20 18:59:53,880 : ACTION SendLINMSG [started] line: 31
+                        port = SWC
+                        frameType = master
+                        id = swc_select_down
+                        message = 00206020
+12/20 18:59:54,095 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.215sec
+12/20 18:59:55,118 : ACTION StopCommand [started] line: 39
+                        isReturn = false
+                        alias = tcpdump
+12/20 18:59:55,130 : ACTION StopCommand [finished] result=SUCCESS duration=0.012sec
+12/20 18:59:56,149 : ACTION VerifyFSATcp [started] line: 44
+                        failOnNotMatch = false
+                        messages = [ {"functionId":"709", "keyInfo":[{"Expected": "Launcher:nav", "Path": "$.callback"}]} ]
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 18:59:56,375 : ACTION VerifyFSATcp [finished] result=SUCCESS duration=0.226sec returnValue={true=false, false=true}
+12/20 18:59:56,385 : STEP SNAPSHOT [started] 
+
+12/20 18:59:56,756 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.371sec
+12/20 18:59:57,777 : JUDGEMENT  [started] line: 50
+                        condition = isFound.true
+12/20 18:59:57,796 : JUDGEMENT  [finished] result=SUCCESS duration=0.019sec
+12/20 18:59:57,809 :     [on loop] 2
+12/20 18:59:57,820 : OPERATION Cluster_ExecCommand [started] line: 27
+                        deviceid = 2E6408F00C2400A2
+12/20 18:59:57,871 : ACTION ExecCommand [started] line: 4
+                        async = false
+                        isReturn = false
+                        deviceId = 2E6408F00C2400A2
+                        command = shell pkill tcpdump
+                        snapshot = true
+12/20 18:59:57,937 : ACTION ExecCommand [finished] result=SUCCESS duration=0.066sec
+12/20 18:59:57,944 : STEP SNAPSHOT [started] 
+
+12/20 18:59:58,312 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.368sec
+12/20 18:59:59,328 : ACTION ExecCommand [started] line: 11
+                        async = true
+                        isReturn = false
+                        alias = tcpdump
+                        deviceId = 2E6408F00C2400A2
+                        command = shell /data/local/tcpdump -i any -U -p -s 0 -w /sdcard/capture.pcap
+                        snapshot = true
+12/20 18:59:59,335 : ACTION ExecCommand [finished] result=SUCCESS duration=0.007sec
+12/20 18:59:59,343 : STEP SNAPSHOT [started] 
+
+12/20 18:59:59,964 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.621sec
+12/20 19:00:00,986 : OPERATION Cluster_ExecCommand [finished] result=SUCCESS duration=3.166sec
+12/20 19:00:01,008 : ACTION SendLINMSG [started] line: 31
+                        port = SWC
+                        frameType = master
+                        id = swc_select_down
+                        message = 00206020
+12/20 19:00:01,212 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.204sec
+12/20 19:00:02,240 : ACTION StopCommand [started] line: 39
+                        isReturn = false
+                        alias = tcpdump
+12/20 19:00:02,253 : ACTION StopCommand [finished] result=SUCCESS duration=0.013sec
+12/20 19:00:03,266 : ACTION VerifyFSATcp [started] line: 44
+                        failOnNotMatch = false
+                        messages = [ {"functionId":"709", "keyInfo":[{"Expected": "Launcher:nav", "Path": "$.callback"}]} ]
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:00:03,567 : ACTION VerifyFSATcp [finished] result=SUCCESS duration=0.301sec returnValue={true=false, false=true}
+12/20 19:00:03,576 : STEP SNAPSHOT [started] 
+
+12/20 19:00:04,098 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.522sec
+12/20 19:00:05,702 : JUDGEMENT  [started] line: 50
+                        condition = isFound.true
+12/20 19:00:05,721 : JUDGEMENT  [finished] result=SUCCESS duration=0.019sec
+12/20 19:00:05,734 :     [on loop] 3
+12/20 19:00:05,746 : OPERATION Cluster_ExecCommand [started] line: 27
+                        deviceid = 2E6408F00C2400A2
+12/20 19:00:05,795 : ACTION ExecCommand [started] line: 4
+                        async = false
+                        isReturn = false
+                        deviceId = 2E6408F00C2400A2
+                        command = shell pkill tcpdump
+                        snapshot = true
+12/20 19:00:05,850 : ACTION ExecCommand [finished] result=SUCCESS duration=0.055sec
+12/20 19:00:05,857 : STEP SNAPSHOT [started] 
+
+12/20 19:00:06,276 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.419sec
+12/20 19:00:07,298 : ACTION ExecCommand [started] line: 11
+                        async = true
+                        isReturn = false
+                        alias = tcpdump
+                        deviceId = 2E6408F00C2400A2
+                        command = shell /data/local/tcpdump -i any -U -p -s 0 -w /sdcard/capture.pcap
+                        snapshot = true
+12/20 19:00:07,307 : ACTION ExecCommand [finished] result=SUCCESS duration=0.009sec
+12/20 19:00:07,315 : STEP SNAPSHOT [started] 
+
+12/20 19:00:07,885 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.570sec
+12/20 19:00:08,907 : OPERATION Cluster_ExecCommand [finished] result=SUCCESS duration=3.161sec
+12/20 19:00:08,916 : ACTION SendLINMSG [started] line: 31
+                        port = SWC
+                        frameType = master
+                        id = swc_select_down
+                        message = 00206020
+12/20 19:00:09,111 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.195sec
+12/20 19:00:10,135 : ACTION StopCommand [started] line: 39
+                        isReturn = false
+                        alias = tcpdump
+12/20 19:00:10,158 : ACTION StopCommand [finished] result=SUCCESS duration=0.023sec
+12/20 19:00:11,176 : ACTION VerifyFSATcp [started] line: 44
+                        failOnNotMatch = false
+                        messages = [ {"functionId":"709", "keyInfo":[{"Expected": "Launcher:nav", "Path": "$.callback"}]} ]
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:00:11,449 : ACTION VerifyFSATcp [finished] result=SUCCESS duration=0.273sec returnValue={true=false, false=true}
+12/20 19:00:11,456 : STEP SNAPSHOT [started] 
+
+12/20 19:00:11,900 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.444sec
+12/20 19:00:12,924 : JUDGEMENT  [started] line: 50
+                        condition = isFound.true
+12/20 19:00:12,944 : JUDGEMENT  [finished] result=SUCCESS duration=0.020sec
+12/20 19:00:12,958 :     [on loop] 4
+12/20 19:00:12,967 : OPERATION Cluster_ExecCommand [started] line: 27
+                        deviceid = 2E6408F00C2400A2
+12/20 19:00:13,015 : ACTION ExecCommand [started] line: 4
+                        async = false
+                        isReturn = false
+                        deviceId = 2E6408F00C2400A2
+                        command = shell pkill tcpdump
+                        snapshot = true
+12/20 19:00:13,071 : ACTION ExecCommand [finished] result=SUCCESS duration=0.056sec
+12/20 19:00:13,078 : STEP SNAPSHOT [started] 
+
+12/20 19:00:13,547 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.469sec
+12/20 19:00:14,570 : ACTION ExecCommand [started] line: 11
+                        async = true
+                        isReturn = false
+                        alias = tcpdump
+                        deviceId = 2E6408F00C2400A2
+                        command = shell /data/local/tcpdump -i any -U -p -s 0 -w /sdcard/capture.pcap
+                        snapshot = true
+12/20 19:00:14,590 : ACTION ExecCommand [finished] result=SUCCESS duration=0.020sec
+12/20 19:00:14,607 : STEP SNAPSHOT [started] 
+
+12/20 19:00:15,079 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.472sec
+12/20 19:00:16,094 : OPERATION Cluster_ExecCommand [finished] result=SUCCESS duration=3.127sec
+12/20 19:00:16,112 : ACTION SendLINMSG [started] line: 31
+                        port = SWC
+                        frameType = master
+                        id = swc_select_down
+                        message = 00206020
+12/20 19:00:16,324 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.212sec
+12/20 19:00:17,340 : ACTION StopCommand [started] line: 39
+                        isReturn = false
+                        alias = tcpdump
+12/20 19:00:17,361 : ACTION StopCommand [finished] result=SUCCESS duration=0.021sec
+12/20 19:00:18,377 : ACTION VerifyFSATcp [started] line: 44
+                        failOnNotMatch = false
+                        messages = [ {"functionId":"709", "keyInfo":[{"Expected": "Launcher:nav", "Path": "$.callback"}]} ]
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:00:18,642 : ACTION VerifyFSATcp [finished] result=SUCCESS duration=0.265sec returnValue={true=false, false=true}
+12/20 19:00:18,655 : STEP SNAPSHOT [started] 
+
+12/20 19:00:19,229 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.574sec
+12/20 19:00:20,249 : JUDGEMENT  [started] line: 50
+                        condition = isFound.true
+12/20 19:00:20,256 : JUDGEMENT  [finished] result=SUCCESS duration=0.007sec
+12/20 19:00:20,262 :     [on loop] 5
+12/20 19:00:20,269 : OPERATION Cluster_ExecCommand [started] line: 27
+                        deviceid = 2E6408F00C2400A2
+12/20 19:00:20,312 : ACTION ExecCommand [started] line: 4
+                        async = false
+                        isReturn = false
+                        deviceId = 2E6408F00C2400A2
+                        command = shell pkill tcpdump
+                        snapshot = true
+12/20 19:00:20,371 : ACTION ExecCommand [finished] result=SUCCESS duration=0.059sec
+12/20 19:00:20,386 : STEP SNAPSHOT [started] 
+
+12/20 19:00:20,810 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.424sec
+12/20 19:00:21,875 : ACTION ExecCommand [started] line: 11
+                        async = true
+                        isReturn = false
+                        alias = tcpdump
+                        deviceId = 2E6408F00C2400A2
+                        command = shell /data/local/tcpdump -i any -U -p -s 0 -w /sdcard/capture.pcap
+                        snapshot = true
+12/20 19:00:21,895 : ACTION ExecCommand [finished] result=SUCCESS duration=0.020sec
+12/20 19:00:21,908 : STEP SNAPSHOT [started] 
+
+12/20 19:00:22,382 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.474sec
+12/20 19:00:23,405 : OPERATION Cluster_ExecCommand [finished] result=SUCCESS duration=3.136sec
+12/20 19:00:23,427 : ACTION SendLINMSG [started] line: 31
+                        port = SWC
+                        frameType = master
+                        id = swc_select_down
+                        message = 00206020
+12/20 19:00:23,623 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.196sec
+12/20 19:00:24,648 : ACTION StopCommand [started] line: 39
+                        isReturn = false
+                        alias = tcpdump
+12/20 19:00:24,670 : ACTION StopCommand [finished] result=SUCCESS duration=0.022sec
+12/20 19:00:25,689 : ACTION VerifyFSATcp [started] line: 44
+                        failOnNotMatch = false
+                        messages = [ {"functionId":"709", "keyInfo":[{"Expected": "Launcher:nav", "Path": "$.callback"}]} ]
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:00:26,044 : ACTION VerifyFSATcp [finished] result=SUCCESS duration=0.355sec returnValue={true=false, false=true}
+12/20 19:00:26,051 : STEP SNAPSHOT [started] 
+
+12/20 19:00:26,495 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.444sec
+12/20 19:00:27,517 : JUDGEMENT  [started] line: 50
+                        condition = isFound.true
+12/20 19:00:27,537 : JUDGEMENT  [finished] result=SUCCESS duration=0.020sec
+12/20 19:00:27,555 :     [on loop] 6
+12/20 19:00:27,570 : OPERATION Cluster_ExecCommand [started] line: 27
+                        deviceid = 2E6408F00C2400A2
+12/20 19:00:27,633 : ACTION ExecCommand [started] line: 4
+                        async = false
+                        isReturn = false
+                        deviceId = 2E6408F00C2400A2
+                        command = shell pkill tcpdump
+                        snapshot = true
+12/20 19:00:27,701 : ACTION ExecCommand [finished] result=SUCCESS duration=0.068sec
+12/20 19:00:27,708 : STEP SNAPSHOT [started] 
+
+12/20 19:00:28,102 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.394sec
+12/20 19:00:29,117 : ACTION ExecCommand [started] line: 11
+                        async = true
+                        isReturn = false
+                        alias = tcpdump
+                        deviceId = 2E6408F00C2400A2
+                        command = shell /data/local/tcpdump -i any -U -p -s 0 -w /sdcard/capture.pcap
+                        snapshot = true
+12/20 19:00:29,125 : ACTION ExecCommand [finished] result=SUCCESS duration=0.008sec
+12/20 19:00:29,136 : STEP SNAPSHOT [started] 
+
+12/20 19:00:29,731 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.595sec
+12/20 19:00:30,754 : OPERATION Cluster_ExecCommand [finished] result=SUCCESS duration=3.184sec
+12/20 19:00:30,776 : ACTION SendLINMSG [started] line: 31
+                        port = SWC
+                        frameType = master
+                        id = swc_select_down
+                        message = 00206020
+12/20 19:00:30,969 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.193sec
+12/20 19:00:31,993 : ACTION StopCommand [started] line: 39
+                        isReturn = false
+                        alias = tcpdump
+12/20 19:00:32,011 : ACTION StopCommand [finished] result=SUCCESS duration=0.018sec
+12/20 19:00:33,025 : ACTION VerifyFSATcp [started] line: 44
+                        failOnNotMatch = false
+                        messages = [ {"functionId":"709", "keyInfo":[{"Expected": "Launcher:nav", "Path": "$.callback"}]} ]
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:00:33,326 : ACTION VerifyFSATcp [finished] result=SUCCESS duration=0.301sec returnValue={true=false, false=true}
+12/20 19:00:33,333 : STEP SNAPSHOT [started] 
+
+12/20 19:00:33,927 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.594sec
+12/20 19:00:34,936 : JUDGEMENT  [started] line: 50
+                        condition = isFound.true
+12/20 19:00:34,956 : JUDGEMENT  [finished] result=SUCCESS duration=0.020sec
+12/20 19:00:34,974 :     [on loop] 7
+12/20 19:00:34,985 : OPERATION Cluster_ExecCommand [started] line: 27
+                        deviceid = 2E6408F00C2400A2
+12/20 19:00:35,037 : ACTION ExecCommand [started] line: 4
+                        async = false
+                        isReturn = false
+                        deviceId = 2E6408F00C2400A2
+                        command = shell pkill tcpdump
+                        snapshot = true
+12/20 19:00:35,102 : ACTION ExecCommand [finished] result=SUCCESS duration=0.065sec
+12/20 19:00:35,109 : STEP SNAPSHOT [started] 
+
+12/20 19:00:35,528 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.419sec
+12/20 19:00:36,552 : ACTION ExecCommand [started] line: 11
+                        async = true
+                        isReturn = false
+                        alias = tcpdump
+                        deviceId = 2E6408F00C2400A2
+                        command = shell /data/local/tcpdump -i any -U -p -s 0 -w /sdcard/capture.pcap
+                        snapshot = true
+12/20 19:00:36,574 : ACTION ExecCommand [finished] result=SUCCESS duration=0.022sec
+12/20 19:00:36,594 : STEP SNAPSHOT [started] 
+
+12/20 19:00:37,097 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.503sec
+12/20 19:00:38,107 : OPERATION Cluster_ExecCommand [finished] result=SUCCESS duration=3.122sec
+12/20 19:00:38,118 : ACTION SendLINMSG [started] line: 31
+                        port = SWC
+                        frameType = master
+                        id = swc_select_down
+                        message = 00206020
+12/20 19:00:38,321 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.203sec
+12/20 19:00:39,331 : ACTION StopCommand [started] line: 39
+                        isReturn = false
+                        alias = tcpdump
+12/20 19:00:39,340 : ACTION StopCommand [finished] result=SUCCESS duration=0.009sec
+12/20 19:00:40,349 : ACTION VerifyFSATcp [started] line: 44
+                        failOnNotMatch = false
+                        messages = [ {"functionId":"709", "keyInfo":[{"Expected": "Launcher:nav", "Path": "$.callback"}]} ]
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:00:40,581 : ACTION VerifyFSATcp [finished] result=SUCCESS duration=0.232sec returnValue={true=false, false=true}
+12/20 19:00:40,589 : STEP SNAPSHOT [started] 
+
+12/20 19:00:41,083 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.494sec
+12/20 19:00:42,101 : JUDGEMENT  [started] line: 50
+                        condition = isFound.true
+12/20 19:00:42,121 : JUDGEMENT  [finished] result=SUCCESS duration=0.020sec
+12/20 19:00:42,140 :     [on loop] 8
+12/20 19:00:42,151 : OPERATION Cluster_ExecCommand [started] line: 27
+                        deviceid = 2E6408F00C2400A2
+12/20 19:00:42,197 : ACTION ExecCommand [started] line: 4
+                        async = false
+                        isReturn = false
+                        deviceId = 2E6408F00C2400A2
+                        command = shell pkill tcpdump
+                        snapshot = true
+12/20 19:00:42,265 : ACTION ExecCommand [finished] result=SUCCESS duration=0.068sec
+12/20 19:00:42,278 : STEP SNAPSHOT [started] 
+
+12/20 19:00:43,077 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.799sec
+12/20 19:00:44,088 : ACTION ExecCommand [started] line: 11
+                        async = true
+                        isReturn = false
+                        alias = tcpdump
+                        deviceId = 2E6408F00C2400A2
+                        command = shell /data/local/tcpdump -i any -U -p -s 0 -w /sdcard/capture.pcap
+                        snapshot = true
+12/20 19:00:44,100 : ACTION ExecCommand [finished] result=SUCCESS duration=0.012sec
+12/20 19:00:44,108 : STEP SNAPSHOT [started] 
+
+12/20 19:00:44,679 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.571sec
+12/20 19:00:45,700 : OPERATION Cluster_ExecCommand [finished] result=SUCCESS duration=3.549sec
+12/20 19:00:45,724 : ACTION SendLINMSG [started] line: 31
+                        port = SWC
+                        frameType = master
+                        id = swc_select_down
+                        message = 00206020
+12/20 19:00:45,948 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.224sec
+12/20 19:00:46,962 : ACTION StopCommand [started] line: 39
+                        isReturn = false
+                        alias = tcpdump
+12/20 19:00:46,978 : ACTION StopCommand [finished] result=SUCCESS duration=0.016sec
+12/20 19:00:47,988 : ACTION VerifyFSATcp [started] line: 44
+                        failOnNotMatch = false
+                        messages = [ {"functionId":"709", "keyInfo":[{"Expected": "Launcher:nav", "Path": "$.callback"}]} ]
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:00:48,232 : ACTION VerifyFSATcp [finished] result=SUCCESS duration=0.244sec returnValue={true=false, false=true}
+12/20 19:00:48,239 : STEP SNAPSHOT [started] 
+
+12/20 19:00:48,783 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.544sec
+12/20 19:00:49,802 : JUDGEMENT  [started] line: 50
+                        condition = isFound.true
+12/20 19:00:49,810 : JUDGEMENT  [finished] result=SUCCESS duration=0.008sec
+12/20 19:00:49,816 :     [on loop] 9
+12/20 19:00:49,823 : OPERATION Cluster_ExecCommand [started] line: 27
+                        deviceid = 2E6408F00C2400A2
+12/20 19:00:49,871 : ACTION ExecCommand [started] line: 4
+                        async = false
+                        isReturn = false
+                        deviceId = 2E6408F00C2400A2
+                        command = shell pkill tcpdump
+                        snapshot = true
+12/20 19:00:49,937 : ACTION ExecCommand [finished] result=SUCCESS duration=0.066sec
+12/20 19:00:49,943 : STEP SNAPSHOT [started] 
+
+12/20 19:00:50,336 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.393sec
+12/20 19:00:51,347 : ACTION ExecCommand [started] line: 11
+                        async = true
+                        isReturn = false
+                        alias = tcpdump
+                        deviceId = 2E6408F00C2400A2
+                        command = shell /data/local/tcpdump -i any -U -p -s 0 -w /sdcard/capture.pcap
+                        snapshot = true
+12/20 19:00:51,354 : ACTION ExecCommand [finished] result=SUCCESS duration=0.007sec
+12/20 19:00:51,363 : STEP SNAPSHOT [started] 
+
+12/20 19:00:51,807 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.444sec
+12/20 19:00:52,819 : OPERATION Cluster_ExecCommand [finished] result=SUCCESS duration=2.996sec
+12/20 19:00:52,826 : ACTION SendLINMSG [started] line: 31
+                        port = SWC
+                        frameType = master
+                        id = swc_select_down
+                        message = 00206020
+12/20 19:00:53,011 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.185sec
+12/20 19:00:54,020 : ACTION StopCommand [started] line: 39
+                        isReturn = false
+                        alias = tcpdump
+12/20 19:00:54,027 : ACTION StopCommand [finished] result=SUCCESS duration=0.007sec
+12/20 19:00:55,037 : ACTION VerifyFSATcp [started] line: 44
+                        failOnNotMatch = false
+                        messages = [ {"functionId":"709", "keyInfo":[{"Expected": "Launcher:nav", "Path": "$.callback"}]} ]
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:00:55,281 : ACTION VerifyFSATcp [finished] result=SUCCESS duration=0.244sec returnValue={true=false, false=true}
+12/20 19:00:55,288 : STEP SNAPSHOT [started] 
+
+12/20 19:00:55,680 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.392sec
+12/20 19:00:56,688 : JUDGEMENT  [started] line: 50
+                        condition = isFound.true
+12/20 19:00:56,695 : JUDGEMENT  [finished] result=SUCCESS duration=0.007sec
+12/20 19:00:56,702 : LOOP  [finished] result=SUCCESS duration=73.275sec
+12/20 19:00:56,708 : JUDGEMENT  [started] line: 55
+                        condition = isFound.false
+12/20 19:00:56,716 : ACTION SendLINMSG [started] line: 56
+                        port = SWC
+                        frameType = master
+                        id = swc_select_left
+                        message = 00206020
+12/20 19:00:56,901 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.185sec
+12/20 19:00:57,910 : ACTION SendLINMSG [started] line: 63
+                        port = SWC
+                        frameType = master
+                        id = swc_select_up
+                        message = 00206020
+12/20 19:00:58,087 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.177sec
+12/20 19:00:59,095 : LOOP  [started] line: 70
+                        gaugeValue = 10
+                        increment = 1
+                        initValue = 0
+12/20 19:00:59,102 :     [on loop] 0
+12/20 19:00:59,109 : OPERATION Cluster_ExecCommand [started] line: 71
+                        deviceid = 2E6408F00C2400A2
+12/20 19:00:59,175 : ACTION ExecCommand [started] line: 4
+                        async = false
+                        isReturn = false
+                        deviceId = 2E6408F00C2400A2
+                        command = shell pkill tcpdump
+                        snapshot = true
+12/20 19:00:59,235 : ACTION ExecCommand [finished] result=SUCCESS duration=0.060sec
+12/20 19:00:59,244 : STEP SNAPSHOT [started] 
+
+12/20 19:00:59,816 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.572sec
+12/20 19:01:00,829 : ACTION ExecCommand [started] line: 11
+                        async = true
+                        isReturn = false
+                        alias = tcpdump
+                        deviceId = 2E6408F00C2400A2
+                        command = shell /data/local/tcpdump -i any -U -p -s 0 -w /sdcard/capture.pcap
+                        snapshot = true
+12/20 19:01:00,835 : ACTION ExecCommand [finished] result=SUCCESS duration=0.006sec
+12/20 19:01:00,843 : STEP SNAPSHOT [started] 
+
+12/20 19:01:01,186 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.343sec
+12/20 19:01:02,521 : OPERATION Cluster_ExecCommand [finished] result=SUCCESS duration=3.412sec
+12/20 19:01:02,528 : ACTION SendLINMSG [started] line: 75
+                        port = SWC
+                        frameType = master
+                        id = swc_select_down
+                        message = 00206020
+12/20 19:01:02,713 : ACTION SendLINMSG [finished] result=SUCCESS duration=0.185sec
+12/20 19:01:03,722 : ACTION StopCommand [started] line: 83
+                        isReturn = false
+                        alias = tcpdump
+12/20 19:01:03,729 : ACTION StopCommand [finished] result=SUCCESS duration=0.007sec
+12/20 19:01:04,737 : ACTION VerifyFSATcp [started] line: 88
+                        failOnNotMatch = false
+                        messages = [ {"functionId":"709", "keyInfo":[{"Expected": "Launcher:nav", "Path": "$.callback"}]} ]
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:01:04,982 : ACTION VerifyFSATcp [finished] result=SUCCESS duration=0.245sec returnValue={true=true, false=false}
+12/20 19:01:04,989 : STEP SNAPSHOT [started] 
+
+12/20 19:01:05,407 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.418sec
+12/20 19:01:06,415 : JUDGEMENT  [started] line: 94
+                        condition = isFound.true
+12/20 19:01:06,422 : JUDGEMENT  [finished] result=ERROR duration=0.007sec
+12/20 19:01:06,428 : LOOP  [finished] result=SUCCESS duration=7.333sec
+12/20 19:01:06,434 : JUDGEMENT  [started] line: 98
+                        condition = isFound.false
+12/20 19:01:06,439 : JUDGEMENT  [finished] result=SUCCESS duration=0.005sec
+12/20 19:01:06,444 : JUDGEMENT  [finished] result=SUCCESS duration=9.736sec
+12/20 19:01:06,449 : OPERATION cluster_gonav [finished] result=SUCCESS duration=94.724sec
+12/20 19:01:06,456 : OPERATION click_nav_in_home [started] line: 21
+                        deviceid = 2E6408F00C2400A2
+12/20 19:01:06,506 : OPERATION Click_Home_Twice [started] line: 3
+                        deviceid = 2E6408F00C2400A2
+12/20 19:01:06,563 : ACTION Press [started] line: 3
+                        times = 2
+                        keyName = HOME
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:01:09,093 : ACTION Press [finished] result=SUCCESS duration=2.530sec
+12/20 19:01:09,099 : STEP SNAPSHOT [started] 
+
+12/20 19:01:09,616 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.517sec
+12/20 19:01:10,145 : OPERATION Click_Home_Twice [finished] result=SUCCESS duration=3.639sec
+12/20 19:01:10,151 : LOOP  [started] line: 6
+                        gaugeValue = 2
+                        increment = 1
+                        initValue = 0
+12/20 19:01:10,157 :     [on loop] 0
+12/20 19:01:10,169 : ACTION Verify [started] line: 7
+                        contains = false
+                        failOnNotMatch = false
+                        nodeProp = {text=Nav}
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:01:12,031 : ACTION Verify [finished] result=SUCCESS duration=1.862sec returnValue={true=true, false=false}
+12/20 19:01:12,037 : STEP SNAPSHOT [started] 
+
+12/20 19:01:12,782 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.745sec
+12/20 19:01:13,291 : JUDGEMENT  [started] line: 19
+                        condition = is_found.true
+12/20 19:01:13,300 : ACTION Click [started] line: 20
+                        contains = true
+                        nodeProp = {text=Nav}
+                        deviceId = 2E6408F00C2400A2
+                        shiftX = 0
+                        snapshot = false
+                        shiftY = 0
+12/20 19:01:16,108 : ACTION Click [finished] result=SUCCESS duration=2.808sec
+12/20 19:01:16,617 : JUDGEMENT  [finished] result=ERROR duration=3.326sec
+12/20 19:01:16,623 : LOOP  [finished] result=SUCCESS duration=6.472sec
+12/20 19:01:16,629 : OPERATION click_nav_in_home [finished] result=SUCCESS duration=10.173sec
+12/20 19:01:16,637 : OPERATION navigation_init_old [started] line: 25
+                        deviceid = 2E6408F00C2400A2
+12/20 19:01:16,687 : ACTION Verify [started] line: 4
+                        contains = false
+                        failOnNotMatch = false
+                        nodeProp = {resource-id=com.telenav.app.denali.na:id/mapResetButtonImage}
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:01:20,664 : ACTION Verify [finished] result=SUCCESS duration=3.977sec returnValue={true=false, false=true}
+12/20 19:01:20,673 : STEP SNAPSHOT [started] 
+
+12/20 19:01:21,416 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.743sec
+12/20 19:01:21,924 : JUDGEMENT  [started] line: 16
+                        condition = isFound.true
+12/20 19:01:21,930 : JUDGEMENT  [finished] result=SUCCESS duration=0.006sec
+12/20 19:01:21,937 : ACTION Verify [started] line: 22
+                        contains = false
+                        failOnNotMatch = false
+                        nodeProp = {text=Cancel, resource-id=com.telenav.app.denali.na:id/endTripButton}
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:01:25,372 : ACTION Verify [finished] result=SUCCESS duration=3.435sec returnValue={true=true, false=false}
+12/20 19:01:25,405 : STEP SNAPSHOT [started] 
+
+12/20 19:01:26,252 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.847sec
+12/20 19:01:26,759 : JUDGEMENT  [started] line: 35
+                        condition = isFound2.true
+12/20 19:01:27,083 : OPERATION click_toolbar_cancel_in_nav_trip [started] line: 36
+                        deviceid = 2E6408F00C2400A2
+12/20 19:01:27,134 : ACTION UIAClick [started] line: 4
+                        selector = idcontains=com.telenav.app.denali.na:id/endTripButton::text=Cancel
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:01:29,627 : ACTION UIAClick [finished] result=SUCCESS duration=2.493sec
+12/20 19:01:29,633 : STEP SNAPSHOT [started] 
+
+12/20 19:01:31,000 : STEP SNAPSHOT [finished] result=SUCCESS duration=1.367sec
+12/20 19:01:31,643 : OPERATION click_toolbar_cancel_in_nav_trip [finished] result=SUCCESS duration=4.560sec
+12/20 19:01:31,649 : JUDGEMENT  [finished] result=SUCCESS duration=4.890sec
+12/20 19:01:31,656 : ACTION Verify [started] line: 41
+                        contains = false
+                        failOnNotMatch = false
+                        nodeProp = {description=search bar close, resource-id=com.telenav.app.denali.na:id/OneBoxClose}
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:01:33,625 : ACTION Verify [finished] result=SUCCESS duration=1.969sec returnValue={true=false, false=true}
+12/20 19:01:33,631 : STEP SNAPSHOT [started] 
+
+12/20 19:01:34,399 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.768sec
+12/20 19:01:34,906 : JUDGEMENT  [started] line: 54
+                        condition = isFound3.true
+12/20 19:01:34,912 : JUDGEMENT  [finished] result=SUCCESS duration=0.006sec
+12/20 19:01:34,917 : OPERATION navigation_init_old [finished] result=SUCCESS duration=18.280sec
+12/20 19:01:34,925 : OPERATION return_to_begin_point_in_nav [started] line: 29
+                        deviceid = 2E6408F00C2400A2
+12/20 19:01:34,984 : OPERATION click_toolbar_searchicon_in_nav [started] line: 4
+                        deviceid = 2E6408F00C2400A2
+12/20 19:01:35,040 : ACTION Click [started] line: 3
+                        contains = false
+                        nodeProp = {resource-id=com.telenav.app.denali.na:id/sideBarSwitchButtonImage}
+                        deviceId = 2E6408F00C2400A2
+                        shiftX = 0
+                        snapshot = true
+                        shiftY = 0
+12/20 19:01:38,271 : ACTION Click [finished] result=SUCCESS duration=3.231sec
+12/20 19:01:38,277 : STEP SNAPSHOT [started] 
+
+12/20 19:01:39,095 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.818sec
+12/20 19:01:39,603 : OPERATION click_toolbar_searchicon_in_nav [finished] result=SUCCESS duration=4.619sec
+12/20 19:01:39,610 : ACTION InputText [started] line: 8
+                        text = 42.329645
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:01:48,715 : ACTION InputText [finished] result=SUCCESS duration=9.105sec
+12/20 19:01:48,722 : STEP SNAPSHOT [started] 
+
+12/20 19:01:49,115 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.393sec
+12/20 19:01:49,629 : OPERATION execcommand_input_keycode_comma [started] line: 13
+                        deviceid = 2E6408F00C2400A2
+12/20 19:01:49,683 : ACTION ExecCommand [started] line: 3
+                        isReturn = false
+                        async = false
+                        deviceId = 2E6408F00C2400A2
+                        command = shell input keyevent 55
+                        snapshot = true
+12/20 19:01:50,649 : ACTION ExecCommand [finished] result=SUCCESS duration=0.966sec
+12/20 19:01:50,660 : STEP SNAPSHOT [started] 
+
+12/20 19:01:51,077 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.417sec
+12/20 19:01:51,585 : OPERATION execcommand_input_keycode_comma [finished] result=SUCCESS duration=1.956sec
+12/20 19:01:51,592 : ACTION InputText [started] line: 17
+                        text = -83.039008
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:02:00,342 : ACTION InputText [finished] result=SUCCESS duration=8.750sec
+12/20 19:02:00,348 : STEP SNAPSHOT [started] 
+
+12/20 19:02:00,790 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.442sec
+12/20 19:02:01,301 : OPERATION click_search_in_nav_keyboard_long_sleep [started] line: 22
+                        deviceid = 2E6408F00C2400A2
+12/20 19:02:01,369 : ACTION Click [started] line: 5
+                        contains = false
+                        nodeProp = {coordinate=740,450}
+                        deviceId = 2E6408F00C2400A2
+                        shiftX = 0
+                        snapshot = true
+                        shiftY = 0
+12/20 19:02:02,140 : ACTION Click [finished] result=SUCCESS duration=0.771sec
+12/20 19:02:02,169 : STEP SNAPSHOT [started] 
+
+12/20 19:02:03,020 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.851sec
+12/20 19:02:13,027 : OPERATION click_search_in_nav_keyboard_long_sleep [finished] result=SUCCESS duration=11.726sec
+12/20 19:02:13,035 : OPERATION click_go_in_nav_detaildrive [started] line: 26
+                        deviceid = 2E6408F00C2400A2
+12/20 19:02:13,085 : ACTION Click [started] line: 3
+                        contains = true
+                        nodeProp = {text=Go}
+                        deviceId = 2E6408F00C2400A2
+                        shiftX = 0
+                        snapshot = true
+                        shiftY = 0
+12/20 19:02:16,027 : ACTION Click [finished] result=SUCCESS duration=2.942sec
+12/20 19:02:16,038 : STEP SNAPSHOT [started] 
+
+12/20 19:02:17,285 : STEP SNAPSHOT [finished] result=SUCCESS duration=1.247sec
+12/20 19:02:20,293 : OPERATION click_go_in_nav_detaildrive [finished] result=SUCCESS duration=7.258sec
+12/20 19:02:20,307 : ACTION Delay [started] line: 30
+                        millitime = 100000
+12/20 19:04:00,314 : ACTION Delay [finished] result=SUCCESS duration=100.007sec
+12/20 19:04:00,825 : OPERATION return_to_begin_point_in_nav [finished] result=SUCCESS duration=145.900sec
+12/20 19:04:00,832 : OPERATION click_toolbar_searchicon_in_nav [started] line: 33
+                        deviceid = 2E6408F00C2400A2
+12/20 19:04:00,892 : ACTION Click [started] line: 3
+                        contains = false
+                        nodeProp = {resource-id=com.telenav.app.denali.na:id/sideBarSwitchButtonImage}
+                        deviceId = 2E6408F00C2400A2
+                        shiftX = 0
+                        snapshot = true
+                        shiftY = 0
+12/20 19:04:04,275 : ACTION Click [finished] result=SUCCESS duration=3.383sec
+12/20 19:04:04,288 : STEP SNAPSHOT [started] 
+
+12/20 19:04:04,913 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.625sec
+12/20 19:04:05,427 : OPERATION click_toolbar_searchicon_in_nav [finished] result=SUCCESS duration=4.595sec
+12/20 19:04:05,435 : OPERATION click_coffee_in_nav [started] line: 37
+                        deviceid = 2E6408F00C2400A2
+12/20 19:04:05,485 : ACTION Click [started] line: 3
+                        contains = false
+                        nodeProp = {text=Coffee}
+                        deviceId = 2E6408F00C2400A2
+                        shiftX = 0
+                        snapshot = true
+                        shiftY = 0
+12/20 19:04:08,331 : ACTION Click [finished] result=SUCCESS duration=2.846sec
+12/20 19:04:08,351 : STEP SNAPSHOT [started] 
+
+12/20 19:04:09,062 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.711sec
+12/20 19:04:09,652 : OPERATION click_coffee_in_nav [finished] result=SUCCESS duration=4.217sec
+12/20 19:04:09,659 : ACTION Click [started] line: 41
+                        contains = true
+                        nodeProp = {text=Starbucks}
+                        deviceId = 2E6408F00C2400A2
+                        shiftX = 0
+                        snapshot = true
+                        shiftY = 0
+12/20 19:04:12,419 : ACTION Click [finished] result=SUCCESS duration=2.760sec
+12/20 19:04:12,425 : STEP SNAPSHOT [started] 
+
+12/20 19:04:13,071 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.646sec
+12/20 19:04:13,592 : OPERATION Cluster_ExecCommand [started] line: 55
+                        deviceid = 2E6408F00C2400A2
+12/20 19:04:14,030 : ACTION ExecCommand [started] line: 4
+                        async = false
+                        isReturn = false
+                        deviceId = 2E6408F00C2400A2
+                        command = shell pkill tcpdump
+                        snapshot = true
+12/20 19:04:14,104 : ACTION ExecCommand [finished] result=SUCCESS duration=0.074sec
+12/20 19:04:14,111 : STEP SNAPSHOT [started] 
+
+12/20 19:04:14,703 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.592sec
+12/20 19:04:15,729 : ACTION ExecCommand [started] line: 11
+                        async = true
+                        isReturn = false
+                        alias = tcpdump
+                        deviceId = 2E6408F00C2400A2
+                        command = shell /data/local/tcpdump -i any -U -p -s 0 -w /sdcard/capture.pcap
+                        snapshot = true
+12/20 19:04:15,798 : ACTION ExecCommand [finished] result=SUCCESS duration=0.069sec
+12/20 19:04:15,886 : STEP SNAPSHOT [started] 
+
+12/20 19:04:16,544 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.658sec
+12/20 19:04:17,553 : OPERATION Cluster_ExecCommand [finished] result=SUCCESS duration=3.961sec
+12/20 19:04:17,568 : OPERATION click_go_in_nav_detaildrive [started] line: 59
+                        deviceid = 2E6408F00C2400A2
+12/20 19:04:17,634 : ACTION Click [started] line: 3
+                        contains = true
+                        nodeProp = {text=Go}
+                        deviceId = 2E6408F00C2400A2
+                        shiftX = 0
+                        snapshot = true
+                        shiftY = 0
+12/20 19:04:20,780 : ACTION Click [finished] result=SUCCESS duration=3.146sec
+12/20 19:04:20,851 : STEP SNAPSHOT [started] 
+
+12/20 19:04:22,429 : STEP SNAPSHOT [finished] result=SUCCESS duration=1.578sec
+12/20 19:04:25,562 : OPERATION click_go_in_nav_detaildrive [finished] result=SUCCESS duration=7.994sec
+12/20 19:04:25,574 : OPERATION press_home_once [started] line: 63
+                        deviceid = 2E6408F00C2400A2
+12/20 19:04:25,637 : ACTION Press [started] line: 3
+                        times = 1
+                        keyName = HOME
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:04:27,354 : ACTION Press [finished] result=SUCCESS duration=1.717sec
+12/20 19:04:27,361 : STEP SNAPSHOT [started] 
+
+12/20 19:04:28,680 : STEP SNAPSHOT [finished] result=SUCCESS duration=1.319sec
+12/20 19:04:29,190 : OPERATION press_home_once [finished] result=SUCCESS duration=3.616sec
+12/20 19:04:29,257 : OPERATION click_audio_in_home [started] line: 67
+                        deviceid = 2E6408F00C2400A2
+12/20 19:04:29,333 : ACTION Click [started] line: 3
+                        contains = false
+                        nodeProp = {text=Audio}
+                        deviceId = 2E6408F00C2400A2
+                        shiftX = 0
+                        snapshot = true
+                        shiftY = 0
+12/20 19:04:32,482 : ACTION Click [finished] result=SUCCESS duration=3.149sec
+12/20 19:04:32,557 : STEP SNAPSHOT [started] 
+
+12/20 19:04:33,210 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.653sec
+12/20 19:04:34,062 : OPERATION click_audio_in_home [finished] result=SUCCESS duration=4.805sec
+12/20 19:04:34,074 : ACTION Delay [started] line: 71
+                        millitime = 10000
+12/20 19:04:44,080 : ACTION Delay [finished] result=SUCCESS duration=10.006sec
+12/20 19:04:44,591 : OPERATION Cluster_StopCommand [started] line: 76
+                        deviceid = 2E6408F00C2400A2
+12/20 19:04:44,654 : ACTION Delay [started] line: 5
+                        millitime = 2000
+12/20 19:04:46,660 : ACTION Delay [finished] result=SUCCESS duration=2.006sec
+12/20 19:04:47,169 : ACTION StopCommand [started] line: 9
+                        isReturn = false
+                        alias = tcpdump
+12/20 19:04:47,182 : ACTION StopCommand [finished] result=SUCCESS duration=0.013sec
+12/20 19:04:48,194 : OPERATION Cluster_StopCommand [finished] result=SUCCESS duration=3.603sec
+12/20 19:04:48,202 : ACTION VerifyFSATcp [started] line: 80
+                        failOnNotMatch = false
+                        messages = [ {"functionId":"700", "keyInfo":[
+                        {"benchmark":"C:\Users\mats\MATS\\benchmark\\next_turn_left_arrow_in_cluster_navigation.png"}]} ]
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:04:51,031 : ACTION VerifyFSATcp [finished] result=SUCCESS duration=2.829sec returnValue={true=true, false=false}
+12/20 19:04:51,038 : STEP SNAPSHOT [started] 
+
+12/20 19:04:51,434 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.396sec
+12/20 19:04:52,476 : JUDGEMENT  [started] line: 88
+                        condition = isEnter.true
+12/20 19:04:52,485 : ACTION Comments [started] line: 89
+                        comments = The contact list display correctly
+12/20 19:04:52,493 : ACTION Comments [finished] result=SUCCESS duration=0.008sec
+12/20 19:04:52,999 : JUDGEMENT  [finished] result=SUCCESS duration=0.523sec
+12/20 19:04:53,005 : JUDGEMENT  [started] line: 93
+                        condition = isEnter.false
+12/20 19:04:53,011 : JUDGEMENT  [finished] result=SUCCESS duration=0.006sec
+12/20 19:04:53,016 : MAIN  [finished] result=SUCCESS duration=321.300sec
+12/20 19:04:53,022 : FINALLY  [started] line: 100
+
+12/20 19:04:53,029 : OPERATION GM_END [started] line: 101
+                        deviceid = 2E6408F00C2400A2
+12/20 19:04:53,079 : ACTION UIAVerify [started] line: 3
+                        compareToNum = NaN
+                        compareType = number
+                        failOnNotMatch = false
+                        selector = text='Changes Not Saved'::id=android:id/title
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:04:54,576 : ACTION UIAVerify [finished] result=SUCCESS duration=1.497sec returnValue={resultNotHit=true, true=false, false=true}
+12/20 19:04:54,582 : STEP SNAPSHOT [started] 
+
+12/20 19:04:55,176 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.594sec
+12/20 19:04:55,684 : JUDGEMENT  [started] line: 11
+                        condition = result4.true
+12/20 19:04:55,690 : JUDGEMENT  [finished] result=SUCCESS duration=0.006sec
+12/20 19:04:55,697 : ACTION Press [started] line: 18
+                        times = 5
+                        keyName = CANCEL
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:05:01,926 : ACTION Press [finished] result=SUCCESS duration=6.229sec
+12/20 19:05:01,935 : STEP SNAPSHOT [started] 
+
+12/20 19:05:02,361 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.426sec
+12/20 19:05:02,963 : ACTION Click [started] line: 24
+                        contains = false
+                        nodeProp = {coordinate=770,620}
+                        deviceId = 2E6408F00C2400A2
+                        shiftX = 0
+                        snapshot = true
+                        shiftY = 0
+12/20 19:05:03,694 : ACTION Click [finished] result=SUCCESS duration=0.731sec
+12/20 19:05:03,752 : STEP SNAPSHOT [started] 
+
+12/20 19:05:04,270 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.518sec
+12/20 19:05:04,868 : ACTION Verify [started] line: 35
+                        contains = true
+                        failOnNotMatch = false
+                        nodeProp = {resource-id=com.gm.settings:id/img_ui_backarrow}
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:05:06,788 : ACTION Verify [finished] result=SUCCESS duration=1.920sec returnValue={true=false, false=true}
+12/20 19:05:06,794 : STEP SNAPSHOT [started] 
+
+12/20 19:05:07,260 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.466sec
+12/20 19:05:07,769 : JUDGEMENT  [started] line: 44
+                        condition = isCrash.true
+12/20 19:05:07,775 : JUDGEMENT  [finished] result=SUCCESS duration=0.006sec
+12/20 19:05:07,783 : ACTION Verify [started] line: 59
+                        contains = true
+                        failOnNotMatch = false
+                        nodeProp = {text=OK}
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:05:10,177 : ACTION Verify [finished] result=SUCCESS duration=2.394sec returnValue={true=false, false=true}
+12/20 19:05:10,225 : STEP SNAPSHOT [started] 
+
+12/20 19:05:10,770 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.545sec
+12/20 19:05:11,278 : JUDGEMENT  [started] line: 68
+                        condition = isCrashFound.true
+12/20 19:05:11,286 : JUDGEMENT  [finished] result=SUCCESS duration=0.008sec
+12/20 19:05:11,300 : ACTION Verify [started] line: 82
+                        contains = true
+                        failOnNotMatch = false
+                        nodeProp = {text=确定}
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:05:13,195 : ACTION Verify [finished] result=SUCCESS duration=1.895sec returnValue={true=false, false=true}
+12/20 19:05:13,202 : STEP SNAPSHOT [started] 
+
+12/20 19:05:13,675 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.473sec
+12/20 19:05:14,196 : JUDGEMENT  [started] line: 91
+                        condition = isCrash.true
+12/20 19:05:14,203 : JUDGEMENT  [finished] result=SUCCESS duration=0.007sec
+12/20 19:05:14,210 : ACTION Press [started] line: 106
+                        times = 5
+                        keyName = CANCEL
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:05:20,525 : ACTION Press [finished] result=SUCCESS duration=6.315sec
+12/20 19:05:20,594 : STEP SNAPSHOT [started] 
+
+12/20 19:05:21,002 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.408sec
+12/20 19:05:21,512 : ACTION Press [started] line: 111
+                        times = 2
+                        keyName = HOME
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:05:24,211 : ACTION Press [finished] result=SUCCESS duration=2.699sec
+12/20 19:05:24,218 : STEP SNAPSHOT [started] 
+
+12/20 19:05:24,986 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.768sec
+12/20 19:05:25,532 : ACTION Verify [started] line: 117
+                        contains = false
+                        failOnNotMatch = false
+                        nodeProp = {package=com.gm.gmhomescreen, resource-id=com.gm.gmhomescreen:id/audio_layout}
+                        deviceId = 2E6408F00C2400A2
+                        snapshot = true
+12/20 19:05:27,498 : ACTION Verify [finished] result=SUCCESS duration=1.966sec returnValue={true=false, false=true}
+12/20 19:05:27,504 : STEP SNAPSHOT [started] 
+
+12/20 19:05:28,045 : STEP SNAPSHOT [finished] result=SUCCESS duration=0.541sec
+12/20 19:05:29,554 : JUDGEMENT  [started] line: 128
+                        condition = IsFound.true
+12/20 19:05:29,561 : JUDGEMENT  [finished] result=SUCCESS duration=0.007sec
+12/20 19:05:29,568 : OPERATION GM_END [finished] result=SUCCESS duration=36.539sec
+12/20 19:05:29,573 : FINALLY  [finished] result=SUCCESS duration=36.551sec
+12/20 19:05:30,122 : CASE 3_Cluster_benchmark_rootpath [finished] result=SUCCESS duration=378.262sec

@@ -65,10 +65,8 @@ def print_buildinfo(jenkins_server_url, buildnumber, job_name):
 
 if __name__ == '__main__':
     jenkins_server_url = 'http://10.10.11.8:8080'
-    # user_id = input('Please input username:')
-    user_id = 'ynlong'
-    # api_token = input('Please input password:')
-    api_token = 'ZXCasdQWE1@3'
+    user_id = input('Please input username:')
+    api_token = input('Please input password:')
     job_name = 'Tester_4ALL'
     server = jenkins.Jenkins(
         jenkins_server_url, username=user_id, password=api_token)
